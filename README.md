@@ -8,7 +8,7 @@ Add github repository to composer.json
    "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:gusarov112/abstract-collection"
+            "url": "git@github.com:gusarov112/abstract-collection.git"
         }
     ]
 }
