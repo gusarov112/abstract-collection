@@ -1,0 +1,25 @@
+{
+  "name": "gusarov112/slim-skeleton",
+  "description": "A simple abstract class mostly for entities, models, value objects",
+  "keywords": [
+    "generic",
+    "collection"
+  ],
+  "homepage": "http://github.com/gusarov112/abstract-collection",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Anatolii Husarov",
+      "email": "gusar.atm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gusarov112\\AbstractCollection\\": "src/"
+    }
+  }
+}
