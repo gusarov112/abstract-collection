@@ -63,6 +63,17 @@ abstract class AbstractCollection implements IteratorAggregate, JsonSerializable
         );
     }
 
+    public function getValuesGenerator(callable $valueCallback): Generator
+    {
+        return (function (?callable $valueCallback) {
+            foreach ($this as $item) {
+                yield $valueCallback($item);
+            }
+        })(
+            $valueCallback
+        );
+    }
+
     public function reduce(callable $condition): void
     {
         foreach ($this->items as $key => $item) {
