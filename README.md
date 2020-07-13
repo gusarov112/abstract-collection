@@ -2,18 +2,7 @@
 
 ## Installation
 
-Add github repository to composer.json
-```json
-{
-   "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:gusarov112/abstract-collection.git"
-        }
-    ]
-}
-```
-Than require package
+Require package
 ```bash
 composer require gusarov112/abstract-collection
 ```
